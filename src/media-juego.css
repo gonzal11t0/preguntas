@@ -1,0 +1,98 @@
+@media  (max-width:800px){
+    .container-preguntas,.container-respuestas,.container-puntos{
+        width:600px;
+    }
+    .container-preguntas h1{
+        font-size:1.2rem;
+    }
+    .container-preguntas h2, h5{
+        font-size:1rem;
+    }
+    .container-respuestas button{
+        border: none;
+        padding:18px;
+        margin-top:15px;
+        margin-bottom:15px;
+        border-radius:10%;
+        -webkit-border-radius:10%;
+        -moz-border-radius:10%;
+        -ms-border-radius:10%;
+        -o-border-radius:10%;
+    }
+    .container-respuestas button:hover{
+        border-radius:15%;
+        -webkit-border-radius:15%;
+        -moz-border-radius:15%;
+        -ms-border-radius:15%;
+        -o-border-radius:15%;
+    }
+}
+@media  (max-width:600px){
+    .container-preguntas,.container-respuestas,.container-puntos{
+        width:400px;
+    }
+    .container-preguntas h1{
+        font-size:1.2rem;
+    }
+    .container-preguntas h2, h5{
+        font-size:1rem;
+    }
+    .container-respuestas button{
+        border: none;
+        padding:18px;
+        margin-top:15px;
+        margin-bottom:15px;
+        border-radius:10%;
+        -webkit-border-radius:10%;
+        -moz-border-radius:10%;
+        -ms-border-radius:10%;
+        -o-border-radius:10%;
+    }
+    .container-respuestas button:hover{
+        border-radius:15%;
+        -webkit-border-radius:15%;
+        -moz-border-radius:15%;
+        -ms-border-radius:15%;
+        -o-border-radius:15%;
+}
+}
+@media (min-width:200px)  and (max-width:400px){
+    .container-preguntas,.container-respuestas,.container-puntos{
+        width:200px;
+        margin-top:30px;
+    }
+    .container{
+        box-shadow:none ;
+    }
+    .container-preguntas h1,h2,h5{
+        text-decoration:none;
+        padding-top:20px;
+    }
+    .container-preguntas h1{
+        padding-bottom:30px;
+        font-size:.9rem;
+    }
+    .container-preguntas h2, h5{
+        font-size:.8rem;
+        padding-bottom:20px;
+    }
+    .container-respuestas button{
+        border: none;
+        padding: 15px;
+        margin-top: 15px;
+        margin-bottom:15px;
+        border-radius:5%;
+        -webkit-border-radius:5%;
+        -moz-border-radius:5%;
+        -ms-border-radius:5%;
+        -o-border-radius:5%;
+    }
+    .container-respuestas button:hover{
+        background-color: none;
+        border-radius:none;
+        -webkit-border-radius:none;
+        -moz-border-radius:none;
+        -ms-border-radius:none;
+        -o-border-radius:none;
+    }
+}

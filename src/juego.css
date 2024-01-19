@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background: #159957;
+    background: -webkit-linear-gradient(to left, #155799, #094627);
+    background: linear-gradient(to left, #155799, #094627); 
+    color:#ffff;
+}
+.container-preguntas,.container-respuestas,.container-puntos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    width: 800px;
+    height: auto;
+    margin-top:80px;
+}
+.container{
+    background-color: #0a5730;
+    box-shadow: 5px 5px 5px #012952 ;
+}
+.container-preguntas h1,h2,h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: yellowgreen;
+    text-decoration: underline solid red 1px;
+    padding-top:30px;
+}
+.container-preguntas h1{
+    padding-bottom:60px;
+    font-size:1.5rem;
+}
+.container-preguntas h2, h5{
+    font-size:1.2rem;
+    padding-bottom:60px;
+}
+.container-respuestas button{
+    border: none;
+    padding: 15px;
+    margin-right:20px;
+    margin-left:20px;
+    background-color: #0866FF;
+    color: #fff;
+    border-radius:15%;
+    -webkit-border-radius:15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+}
+.container-respuestas button:hover{
+    background-color: #011027;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.container-puntos h1{
+    color: rgb(87, 221, 87);
+}
+.container-juego-terminado,.container-titulo-terminado,.container-puntos-terminado{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width:200px;
+    height:auto;
+    margin-top:140px;
+}
+.container-juego-terminado span{
+    font-size:1.5rem;
+}
+.container-juego-terminado h3{
+    font-size:1.2rem;
+}
+.container-reiniciar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width:100%;
+    height:auto;
+    margin-top:80px;
+}
+.container-reiniciar button{
+    border: none;
+    padding: 15px;
+    margin-right:20px;
+    margin-left:20px;
+    background-color: #0866FF;
+    color: #fff;
+    border-radius:15%;
+    -webkit-border-radius:15%;
+    -moz-border-radius:15%;
+    -ms-border-radius:15%;
+    -o-border-radius:15%;
+}
