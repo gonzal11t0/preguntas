@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/preguntas/static/css/main.2dec6f02.css",
+    "main.js": "/preguntas/static/js/main.3bff1c08.js",
+    "static/js/787.851e25f3.chunk.js": "/preguntas/static/js/787.851e25f3.chunk.js",
+    "index.html": "/preguntas/index.html",
+    "main.2dec6f02.css.map": "/preguntas/static/css/main.2dec6f02.css.map",
+    "main.3bff1c08.js.map": "/preguntas/static/js/main.3bff1c08.js.map",
+    "787.851e25f3.chunk.js.map": "/preguntas/static/js/787.851e25f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2dec6f02.css",
+    "static/js/main.3bff1c08.js"
+  ]
+}
